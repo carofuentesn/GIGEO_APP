@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Futura-Normal", arial !important;
+  color: black;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 27px !important;
+  color: black;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  font-size: 19px !important;
+  color: black;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800 !important;
+  font-size: 19px !important;
+  color: black;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7c7c7c;
+}
+
+.navbar {
+  background-color: #fff;
+  font-family: "Futura-Normal", arial !important;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 15px 25px;
+}
+
+a {
+  color: black !important;
+}
+
+.navbar__logo-gigeo {
+  font-size: 40px !important;
+}
+
+.nav-bar__logo-art {
+  color: black;
+  font-size: 11px;
+  position: absolute;
+  left: 140px;
+  top: -5px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.foto-header {
+  background-image: url(../img/image-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+}
+
+@media (min-width: 576px) {
+  .foto-header {
+    height: 200px;
+  }
+}
+.autor, .titulo, .videos {
+  padding: 20px 40px;
+}
+
+.autor__datos {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+.autor__datos-foto {
+  width: 97px;
+  height: 97px;
+  border-radius: 50px;
+}
+
+.autor__datos-txt {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+.autor__datos-txt .autor__datos-txtnombre, .autor__datos-txt .autor__datos-txtbajada {
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  .autor__datos {
+    justify-content: flex-start;
+    padding: 20px 30px;
+  }
+}
+hr {
+  color: 1px solid black;
+  margin: 0 !important;
+}
+
+.videos__fila {
+  display: flex;
+}
+
+.videos__fila1 img {
+  width: 92%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .videos__fila1 {
+    padding-bottom: 50px;
+  }
+}
+.autor__datos-btn {
+  display: inherit;
+  margin-left: auto;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.autor__datos-btn1 {
+  background-color: #92DCE5 !important;
+  color: #fff !important;
+}
+
+.autor__datos-btn2 {
+  background-color: #EF6461 !important;
+  color: #fff !important;
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

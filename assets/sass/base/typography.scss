@@ -1,0 +1,32 @@
+h1 {
+    font-family: $font-logo!important;
+    color:$color-primario;
+}
+
+h2 {
+    font-family: $font-primaria!important;
+    font-weight: $medium!important;
+    font-size: $large!important;
+    color:$color-primario;
+}
+
+h3 {
+    font-family: $font-primaria;
+    font-weight: $black!important;
+    font-size: $size-medium!important;
+    color:$color-primario;
+}
+
+h4 {
+    font-family: $font-primaria;
+    font-weight: $black!important;
+    font-size: $size-medium!important;
+    color:$color-primario;
+}
+
+p {
+    font-family: $font-secundaria;
+    font-weight: $regular;
+    font-size: $small; 
+    color:$color-secundario;
+}

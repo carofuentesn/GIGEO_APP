@@ -1,0 +1,76 @@
+//HEADER ////////////////////////////////////////////////////////////////////////
+.foto-header {
+    background-image: url(../img/image-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .foto-header {
+        height: 200px;
+    }
+}
+
+//AUTOR ////////////////////////////////////////////////////////////////////////
+
+.autor, .titulo, .videos {
+    @include paddings;
+}
+.autor__datos {
+    display: flex;
+    justify-content: center;
+    padding: 0!important;
+}
+
+.autor__datos-foto {
+    width: 97px;
+    height: 97px;
+    border-radius: 50px;
+}
+
+.autor__datos-txt {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    
+    .autor__datos-txtnombre, .autor__datos-txtbajada {
+        margin-bottom: 0;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .autor__datos {
+        justify-content: flex-start;
+        padding: 20px 30px;
+    }
+}
+
+//VIDEOS ////////////////////////////////////////////////////////////////////////
+
+hr {
+    color:1px solid black;
+    margin: 0!important;
+}
+
+.videos__fila {
+    display: flex;
+    
+}
+
+.videos__fila1 {
+    img {
+        width: 92%;
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .videos__fila1 {
+        padding-bottom: 50px;
+    }
+}

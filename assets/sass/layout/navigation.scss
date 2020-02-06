@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #fff;
+    font-family: 'Futura-Normal', arial!important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px 25px;
+    
+}
+
+//color de iconos///////////////////////////////////////////////////////////////////////////////
+a{
+    color: $color-primario!important;
+}
+
+//logo///////////////////////////////////////////////////////////////////////////////
+.navbar__logo-gigeo {
+    font-size: $x-large!important;
+}
+
+.nav-bar__logo-art {
+    color: $color-primario;
+    font-size: 11px;
+    position: absolute;
+    left: 140px;
+    top: -5px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
