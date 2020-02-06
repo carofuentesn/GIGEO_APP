@@ -3,16 +3,23 @@
     margin-left: auto;
     height: 40px;
     padding-top: 20px;
+    font-family: $font-primaria;
 }
 
 .autor__datos-btn1 {
     background-color: $color-button1!important;
     color:$color-btn!important;
-    
+    border: 0;
+    width: 90px;
+    height: 40px;
+
 }
 
 .autor__datos-btn2 {
     background-color: $color-button2!important;
     color:$color-btn!important;
     margin-left: 15px;
+    border: 0;
+    width: 90px;
+    height: 40px;
 }

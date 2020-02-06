@@ -35,7 +35,7 @@
     display: inherit;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 10px;
     
     .autor__datos-txtnombre, .autor__datos-txtbajada {
         margin-bottom: 0;
@@ -64,7 +64,7 @@ hr {
 
 .videos__fila1 {
     img {
-        width: 92%;
+        width: 100%;
         height: auto;
         margin: auto;
     }

@@ -21,13 +21,14 @@ a{
 //logo///////////////////////////////////////////////////////////////////////////////
 .navbar__logo-gigeo {
     font-size: $x-large!important;
+    margin:0;
 }
 
 .nav-bar__logo-art {
     color: $color-primario;
     font-size: 11px;
     position: absolute;
-    left: 140px;
+    left: 135px;
     top: 1px;
 }
 
