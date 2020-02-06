@@ -13,6 +13,11 @@ a{
     color: $color-primario!important;
 }
 
+.nav-iconos {
+    display: flex;
+    justify-content: flex-end;
+}
+
 //logo///////////////////////////////////////////////////////////////////////////////
 .navbar__logo-gigeo {
     font-size: $x-large!important;
@@ -23,7 +28,7 @@ a{
     font-size: 11px;
     position: absolute;
     left: 140px;
-    top: -5px;
+    top: 1px;
 }
 
 .navbar-toggler {

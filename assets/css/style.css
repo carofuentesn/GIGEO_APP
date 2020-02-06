@@ -49,6 +49,11 @@ a {
   color: black !important;
 }
 
+.nav-iconos {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar__logo-gigeo {
   font-size: 40px !important;
 }
@@ -58,7 +63,7 @@ a {
   font-size: 11px;
   position: absolute;
   left: 140px;
-  top: -5px;
+  top: 1px;
 }
 
 .navbar-toggler {
@@ -122,6 +127,10 @@ hr {
 .videos__fila1 img {
   width: 92%;
   height: auto;
+  margin: auto;
+}
+.videos__fila1 h4 {
+  margin: 9px 0;
 }
 
 @media (min-width: 576px) {
