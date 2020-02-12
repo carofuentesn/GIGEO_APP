@@ -1,41 +1,35 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 h1 {
   font-family: "Poppins", sans-serif;
   color: black;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 h2 {
   font-family: "Montserrat", sans-serif !important;
   font-weight: 500 !important;
   font-size: 27px !important;
-  color: black;
-}
+  color: black; }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800 !important;
   font-size: 19px !important;
-  color: black;
-}
+  color: black; }
 
 h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800 !important;
   font-size: 19px !important;
-  color: black;
-}
+  color: black; }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  color: #7c7c7c;
-}
+  color: #7c7c7c; }
 
 .navbar {
   background-color: #fff;
@@ -43,118 +37,96 @@ p {
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 15px 25px;
-}
+  margin: 15px 25px; }
 
 a {
-  color: black !important;
-}
+  color: black !important; }
 
 .nav-iconos {
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .navbar__logo-gigeo {
   font-size: 40px !important;
-  margin: 0;
-}
+  margin: 0; }
 
 .nav-bar__logo-art {
   color: black;
   font-size: 11px;
   position: absolute;
   left: 135px;
-  top: 1px;
-}
+  top: 1px; }
 
 .navbar-toggler {
-  margin-left: auto;
-}
+  margin-left: auto; }
 
 .foto-header {
   background-image: url(../img/image-banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100px;
-}
+  height: 100px; }
 
 @media (min-width: 576px) {
   .foto-header {
-    height: 200px;
-  }
-}
+    height: 200px; } }
 .autor, .titulo, .videos {
-  padding: 20px 40px;
-}
+  padding: 20px 40px; }
 
 .autor__datos {
   display: flex;
   justify-content: center;
-  padding: 0 !important;
-}
+  padding: 0 !important; }
 
 .autor__datos-foto {
   width: 97px;
   height: 97px;
-  border-radius: 50px;
-}
+  border-radius: 50px; }
 
 .autor__datos-txt {
   display: inherit;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10px;
-}
-.autor__datos-txt .autor__datos-txtnombre, .autor__datos-txt .autor__datos-txtbajada {
-  margin-bottom: 0;
-}
+  padding-left: 10px; }
+  .autor__datos-txt .autor__datos-txtnombre, .autor__datos-txt .autor__datos-txtbajada {
+    margin-bottom: 0; }
 
 @media (min-width: 576px) {
   .autor__datos {
     justify-content: flex-start;
-    padding: 20px 30px;
-  }
-}
+    padding: 20px 30px; } }
 hr {
   color: 1px solid black;
-  margin: 0 !important;
-}
+  margin: 0 !important; }
 
 .videos__fila {
-  display: flex;
-}
+  display: flex; }
 
 .videos__fila1 img {
   width: 100%;
   height: auto;
-  margin: auto;
-}
+  margin: auto; }
 .videos__fila1 h4 {
-  margin: 9px 0;
-}
+  margin: 9px 0; }
 
 @media (min-width: 576px) {
   .videos__fila1 {
-    padding-bottom: 50px;
-  }
-}
+    padding-bottom: 50px; }
+    .videos__fila1 img {
+      height: 180px; } }
 .autor__datos-btn {
   display: inherit;
   margin-left: auto;
   height: 40px;
   padding-top: 20px;
-  font-family: "Montserrat", sans-serif;
-}
+  font-family: "Montserrat", sans-serif; }
 
 .autor__datos-btn1 {
   background-color: #92DCE5 !important;
   color: #fff !important;
   border: 0;
   width: 90px;
-  height: 40px;
-}
+  height: 40px; }
 
 .autor__datos-btn2 {
   background-color: #EF6461 !important;
@@ -162,7 +134,6 @@ hr {
   margin-left: 15px;
   border: 0;
   width: 90px;
-  height: 40px;
-}
+  height: 40px; }
 
 /*# sourceMappingURL=style.css.map */

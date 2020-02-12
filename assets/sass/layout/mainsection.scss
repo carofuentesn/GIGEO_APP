@@ -76,5 +76,8 @@ hr {
 @media (min-width: 576px) {
     .videos__fila1 {
         padding-bottom: 50px;
+        img {
+            height: 180px;
+        }
     }
 }
